@@ -16,12 +16,16 @@ def GEN(ID='sample', Name='sample', Role='User'):
     ET.register_namespace('', 'http://www.w3.org/2000/svg')
     tree = ET.parse('./output/' + ID + '.svg')
     root = tree.getroot()
+    try:
+        Pic = open('pics/' + ID + '.png', mode='r+b')
+    except FileNotFoundError:
+        print(ID + ' picture was not found.')
+        print('What is ' + Name + ' picture name? ("xxx".png)')
+        Pic = open('pics/' + str(input()) + '.png', mode='r+b')
+    root.find('{http://www.w3.org/2000/svg}g[@id="Edit"]/{http://www.w3.org/2000/svg}image[@id="Pic"]').set('{http://www.w3.org/1999/xlink}href', 'data:image/png;base64,' + b64encode(Pic.read()).decode('utf-8'))
+    Pic.close()
     root.find('{http://www.w3.org/2000/svg}g[@id="Edit"]/{http://www.w3.org/2000/svg}text[@id="Name"]/{http://www.w3.org/2000/svg}tspan').text = Name
     root.find('{http://www.w3.org/2000/svg}g[@id="Edit"]/{http://www.w3.org/2000/svg}text[@id="Role"]/{http://www.w3.org/2000/svg}tspan').text = Role
-    with open('./pics/' + ID + '.png', mode='r+b') as Pic:
-        root.find('{http://www.w3.org/2000/svg}g[@id="Edit"]/{http://www.w3.org/2000/svg}image[@id="Pic"]').set(
-            '{http://www.w3.org/1999/xlink}href',
-            'data:image/png;base64,' + b64encode(Pic.read()).decode('utf-8'))
     tree.write('./output/' + ID + '.svg', 'utf-8', True)
 
 
