@@ -3,14 +3,16 @@
 出力形式はSVGで統一しているので、高品質な出力が得られます。
 背面用画像も用意してあります。
 
-#構成
+#依存関係
+Arch Linuxでのパッケージ名に準拠しています。
 ##依存
-* python(ただし、Python 3)  
-以下は依存ではなく、推奨です(表示・印刷時の正確性に関係)
+* python(ただし、Python 3)
+##推奨(表示・印刷時の正確性に関係)
 * otf-ipafont
 * noto-fonts
 * noto-fonts-cjk
 
+#構成
 ##ファイル類
 
 ###/dialog2card.py
