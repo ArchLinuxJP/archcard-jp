@@ -7,6 +7,7 @@
 Arch Linuxでのパッケージ名に準拠しています。
 ##依存
 * python(ただし、Python 3)
+
 ##推奨(表示・印刷時の正確性に関係)
 * otf-ipafont
 * noto-fonts
