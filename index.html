@@ -20,6 +20,8 @@
     <script>
         angular.module("CardGen", ["ngMaterial"]);
     </script>
+
+
     <header>
         <md-toolbar ng-if="true">
             <div class ="md-toolbar-tools">
@@ -39,6 +41,7 @@
                         <label>Role...</label>
                         <input ng-model="Role">
                     </md-input-container>
+                    <input type="file" id="files" name="files[]" multiple />
                     <md-button class="md-fab" ng-disabled="true" aria-label="Pic">
                         <md-icon><i class="material-icons">account_box</i></md-icon>
                     </md-button>
@@ -54,6 +57,7 @@
                                 <stop id="stop6406" stop-color="#1793d1" stop-opacity="0" offset="1"/>
                             </linearGradient>
                         </defs>
+
                         <g id="Base" transform="translate(0 -857)">
                             <rect id="rect4356" height="195" width="322" y="857" x=".000013" stroke-width="0" fill="#fff"/>
                             <rect id="rect4567" height="53.1" width="299" y="999" x="23" fill="url(#linearGradient6408)"/>
@@ -88,12 +92,13 @@
                         <g id="Edit">
                             <text id="Name" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" line-height="125%" y="80.252678" x="138.02228" font-family="&apos;Noto Sans CJK JP&apos;" fill="#000000"><tspan id="tspan4850" font-size="35px" font-family="&apos;Noto Sans CJK JP&apos;" y="80.252678" x="138.02228" font-weight="300">{{Name}}</tspan></text>
                             <text id="Role" opacity=".99" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" xml:space="preserve" font-size="40px" line-height="125%" y="103.57632" x="265.90622" font-family="sans-serif" fill="#000000"><tspan id="tspan4858" style="text-anchor:end;text-align:end" font-family="&apos;Noto Sans CJK JP&apos;" font-size="15px" y="103.57632" x="265.90622" font-weight="100">{{Role}}</tspan></text>
-                            <image id="Pic" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA DElEQVQI12NgYGAAAAAEAAEnNCcKAAAAAElFTkSuQmCC " height="106" width="106" y="17.7" x="17.7" preserveAspectRatio="none"/>
                         </g>
                     </svg>
                 </md-card>
             </div>
         </div>
     </main>
+<script src="js/photo.js"></script>
 </body>
+
 </html>
