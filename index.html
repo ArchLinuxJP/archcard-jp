@@ -39,6 +39,8 @@
                         <label>Role...</label>
                         <input ng-model="Role">
                     </md-input-container>
+		    <input type="file" id="files" name="files[]" multiple />
+		<output id="list"></output>
                     <md-button class="md-fab" ng-disabled="true" aria-label="Pic">
                         <md-icon><i class="material-icons">account_box</i></md-icon>
                     </md-button>
@@ -88,12 +90,13 @@
                         <g id="Edit">
                             <text id="Name" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" line-height="125%" y="80.252678" x="138.02228" font-family="&apos;Noto Sans CJK JP&apos;" fill="#000000"><tspan id="tspan4850" font-size="35px" font-family="&apos;Noto Sans CJK JP&apos;" y="80.252678" x="138.02228" font-weight="300">{{Name}}</tspan></text>
                             <text id="Role" opacity=".99" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" xml:space="preserve" font-size="40px" line-height="125%" y="103.57632" x="265.90622" font-family="sans-serif" fill="#000000"><tspan id="tspan4858" style="text-anchor:end;text-align:end" font-family="&apos;Noto Sans CJK JP&apos;" font-size="15px" y="103.57632" x="265.90622" font-weight="100">{{Role}}</tspan></text>
-                            <image id="Pic" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA DElEQVQI12NgYGAAAAAEAAEnNCcKAAAAAElFTkSuQmCC " height="106" width="106" y="17.7" x="17.7" preserveAspectRatio="none"/>
+			    <!--<image id="Pic" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA DElEQVQI12NgYGAAAAAEAAEnNCcKAAAAAElFTkSuQmCC " height="106" width="106" y="17.7" x="17.7" preserveAspectRatio="none"/>-->
                         </g>
                     </svg>
                 </md-card>
             </div>
         </div>
     </main>
+    <script src="js/photo.js"></script>
 </body>
 </html>
