@@ -30,8 +30,8 @@
         </g>
         <g id="g4223" font-size="40px" font-family="sans-serif">
             <text id="text6390" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(0 857)" y="164.50378" x="53.089607" line-height="125%"><tspan id="tspan6410" font-size="20px" font-family="&apos;Noto Sans CJK JP&apos;" y="164.50378" x="53.089607" font-weight="500" fill="#ffffff">ArchLinuxJP</tspan></text>
-<text id="text6414" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="1042.2117" x="59.317875"><tspan id="tspan6416" font-size="7.5px" y="1042.2117" x="59.317875" font-family="&apos;Noto Sans CJK JP&apos;" fill="#ffffff">https://www.archlinuxjp.org/</tspan></text>
-<text id="text6418" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="1033.5729" x="59.985374"><tspan id="tspan6420" font-size="7.5px" y="1033.5729" x="59.985374" font-family="&apos;Noto Sans CJK JP&apos;" fill="#ffffff">ArchLinux日本ユーザー会</tspan></text>
+    	<text id="text6414" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="1042.2117" x="59.317875"><tspan id="tspan6416" font-size="7.5px" y="1042.2117" x="59.317875" font-family="&apos;Noto Sans CJK JP&apos;" fill="#ffffff">https://www.archlinuxjp.org/</tspan></text>
+    	<text id="text6418" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="1033.5729" x="59.985374"><tspan id="tspan6420" font-size="7.5px" y="1033.5729" x="59.985374" font-family="&apos;Noto Sans CJK JP&apos;" fill="#ffffff">ArchLinux日本ユーザー会</tspan></text>
         </g>
         <g id="g4231" stroke-linejoin="round" stroke="#fff" stroke-width="2" fill="none">
             <path id="path3745-6-56-5" d="m282 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
@@ -44,14 +44,8 @@
     </g>
     <g id="Edit">
         <text id="Name" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" line-height="125%" y="80.252678" x="138.02228" font-family="&apos;Noto Sans CJK JP&apos;" fill="#000000"><tspan id="tspan4850" font-size="35px" font-family="&apos;Noto Sans CJK JP&apos;" y="80.252678" x="138.02228" font-weight="300">{{Name}}</tspan></text>
-        <text id="Role" opacity=".99" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end"
-              xml:space="preserve" font-size="40px" line-height="125%" y="103.57632" x="265.90622"
-              font-family="sans-serif" fill="#000000">
-            <tspan id="tspan4858" style="text-anchor:end;text-align:end" font-family="&apos;Noto Sans CJK JP&apos;"
-                   font-size="15px" y="103.57632" x="265.90622" font-weight="100">{{Role}}
-            </tspan>
-        </text>
-        <image id="Pic" xlink:href="" ng-attr-xlink:href="{{info}}" height="106" width="106" y="17.7" x="17.7"
+    	<text id="Role" opacity=".99" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" xml:space="preserve" font-size="40px" line-height="125%" y="103.57632" x="265.90622" font-family="sans-serif" fill="#000000"><tspan id="tspan4858" style="text-anchor:end;text-align:end" font-family="&apos;Noto Sans CJK JP&apos;" font-size="15px" y="103.57632" x="265.90622" font-weight="100">{{Role}}</tspan></text>
+        <image id="Pic" xlink:href="" ng-href="{{info}}" height="106" width="106" y="17.7" x="17.7"
                preserveAspectRatio="none"/>
     </g>
 </svg>
