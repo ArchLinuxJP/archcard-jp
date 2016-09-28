@@ -1,44 +1,57 @@
-<svg id="card" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 322.44094 194.88189" height="55mm" width="91mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<defs id="defs4">
-<linearGradient id="linearGradient6408" y2="1.03e3" gradientUnits="userSpaceOnUse" x2="322" y1="1.03e3" x1="124">
-<stop id="stop6404" stop-color="#1793d1" offset="0"/>
-<stop id="stop6406" stop-color="#1793d1" stop-opacity="0" offset="1"/>
-</linearGradient>
-</defs>
-<g id="Base" transform="translate(0 -857)">
-<rect id="rect4356" height="195" width="322" y="857" x=".000013" stroke-width="0" fill="#fff"/>
-<rect id="rect4567" height="53.1" width="299" y="999" x="23" fill="url(#linearGradient6408)"/>
-<g id="g3743" transform="matrix(.160 0 0 .160 1.18 985)">
-<path id="path3745" stroke-linejoin="round" d="m143 86.1 144 83.2v166l-144 83.2-144-83.2 0.0000045-166z" stroke="#fff" stroke-width="12.5" fill="#1793d1"/>
-<path id="path3747" d="m143 146c-8.46 20.7-13.6 34.3-23 54.4 5.77 6.12 12.9 13.2 24.4 21.3-12.4-5.09-20.8-10.2-27.1-15.5-12.1 25.1-30.9 61-69.2 130 30.1-17.4 53.5-28.1 75.2-32.2-0.934-4.02-1.47-8.36-1.43-12.9l0.0357-0.965c0.478-19.3 10.5-34.1 22.4-33.1 11.9 1.01 21.1 17.5 20.7 36.8-0.0899 3.63-0.499 7.12-1.21 10.4 21.5 4.21 44.6 14.9 74.3 32l-16.1-29.8c-7.86-6.1-16.1-14-32.8-22.6 11.5 2.99 19.7 6.44 26.2 10.3-50.8-94.5-54.9-107-72.3-148z" fill="#fff" fill-rule="evenodd"/>
-</g>
-<g id="g4213" stroke-linejoin="round" stroke="#fff" stroke-width="2" fill="#1793d1">
-<path id="path3745-6-5" d="m1.42 1.04e3 23 13.3v26.6l-23 13.3-23-13.3 0.000001-26.6z"/>
-<path id="path3745-6-5-3" d="m47 1.04e3 23 13.3v26.6l-23 13.3-23-13.3 0.000001-26.6z"/>
-<g id="g4217" transform="translate(1.06)">
-<path id="path3745-6-56" d="m298 858 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-2" d="m322 819 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-2-9" d="m322 898 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-2-9-1" d="m276 819 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-</g>
-</g>
-<g id="g4223" font-size="40px" font-family="sans-serif">
-<text id="text6390" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(0 857)" y="164.50378" x="53.089607" line-height="125%"><tspan id="tspan6410" font-size="20px" font-family="&apos;Noto Sans CJK JP&apos;" y="164.50378" x="53.089607" font-weight="500" fill="#ffffff">ArchLinuxJP</tspan></text>
+<svg id="card" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 322.44094 194.88189" version="1.1" xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <defs id="defs4">
+        <linearGradient id="linearGradient6408" y2="1.03e3" gradientUnits="userSpaceOnUse" x2="322" y1="1.03e3"
+                        x1="124">
+            <stop id="stop6404" stop-color="#1793d1" offset="0"/>
+            <stop id="stop6406" stop-color="#1793d1" stop-opacity="0" offset="1"/>
+        </linearGradient>
+    </defs>
+    <g id="Base" transform="translate(0 -857)">
+        <rect id="rect4356" height="195" width="322" y="857" x=".000013" stroke-width="0" fill="#fff"/>
+        <rect id="rect4567" height="53.1" width="299" y="999" x="23" fill="url(#linearGradient6408)"/>
+        <g id="g3743" transform="matrix(.160 0 0 .160 1.18 985)">
+            <path id="path3745" stroke-linejoin="round" d="m143 86.1 144 83.2v166l-144 83.2-144-83.2 0.0000045-166z"
+                  stroke="#fff" stroke-width="12.5" fill="#1793d1"/>
+            <path id="path3747"
+                  d="m143 146c-8.46 20.7-13.6 34.3-23 54.4 5.77 6.12 12.9 13.2 24.4 21.3-12.4-5.09-20.8-10.2-27.1-15.5-12.1 25.1-30.9 61-69.2 130 30.1-17.4 53.5-28.1 75.2-32.2-0.934-4.02-1.47-8.36-1.43-12.9l0.0357-0.965c0.478-19.3 10.5-34.1 22.4-33.1 11.9 1.01 21.1 17.5 20.7 36.8-0.0899 3.63-0.499 7.12-1.21 10.4 21.5 4.21 44.6 14.9 74.3 32l-16.1-29.8c-7.86-6.1-16.1-14-32.8-22.6 11.5 2.99 19.7 6.44 26.2 10.3-50.8-94.5-54.9-107-72.3-148z"
+                  fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="g4213" stroke-linejoin="round" stroke="#fff" stroke-width="2" fill="#1793d1">
+            <path id="path3745-6-5" d="m1.42 1.04e3 23 13.3v26.6l-23 13.3-23-13.3 0.000001-26.6z"/>
+            <path id="path3745-6-5-3" d="m47 1.04e3 23 13.3v26.6l-23 13.3-23-13.3 0.000001-26.6z"/>
+            <g id="g4217" transform="translate(1.06)">
+                <path id="path3745-6-56" d="m298 858 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+                <path id="path3745-6-56-2" d="m322 819 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+                <path id="path3745-6-56-2-9" d="m322 898 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+                <path id="path3745-6-56-2-9-1" d="m276 819 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+            </g>
+        </g>
+        <g id="g4223" font-size="40px" font-family="sans-serif">
+            <text id="text6390" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(0 857)" y="164.50378" x="53.089607" line-height="125%"><tspan id="tspan6410" font-size="20px" font-family="&apos;Noto Sans CJK JP&apos;" y="164.50378" x="53.089607" font-weight="500" fill="#ffffff">ArchLinuxJP</tspan></text>
 <text id="text6414" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="1042.2117" x="59.317875"><tspan id="tspan6416" font-size="7.5px" y="1042.2117" x="59.317875" font-family="&apos;Noto Sans CJK JP&apos;" fill="#ffffff">https://www.archlinuxjp.org/</tspan></text>
 <text id="text6418" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="1033.5729" x="59.985374"><tspan id="tspan6420" font-size="7.5px" y="1033.5729" x="59.985374" font-family="&apos;Noto Sans CJK JP&apos;" fill="#ffffff">ArchLinux日本ユーザー会</tspan></text>
-</g>
-<g id="g4231" stroke-linejoin="round" stroke="#fff" stroke-width="2" fill="none">
-<path id="path3745-6-56-5" d="m282 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-5-7" d="m305 979 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-5-1" d="m259 979 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-5-1-3" d="m236 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-5-1-3-3" d="m213 979 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-<path id="path3745-6-56-5-1-3-3-3" d="m190 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
-</g>
-</g>
-<g id="Edit">
-<text id="Name" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" line-height="125%" y="80.252678" x="138.02228" font-family="&apos;Noto Sans CJK JP&apos;" fill="#000000"><tspan id="tspan4850" font-size="35px" font-family="&apos;Noto Sans CJK JP&apos;" y="80.252678" x="138.02228" font-weight="300">{{Name}}</tspan></text>
-<text id="Role" opacity=".99" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" xml:space="preserve" font-size="40px" line-height="125%" y="103.57632" x="265.90622" font-family="sans-serif" fill="#000000"><tspan id="tspan4858" style="text-anchor:end;text-align:end" font-family="&apos;Noto Sans CJK JP&apos;" font-size="15px" y="103.57632" x="265.90622" font-weight="100">{{Role}}</tspan></text>
-<image id="Pic" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA DElEQVQI12NgYGAAAAAEAAEnNCcKAAAAAElFTkSuQmCC " height="106" width="106" y="17.7" x="17.7" preserveAspectRatio="none"/>
-</g>
+        </g>
+        <g id="g4231" stroke-linejoin="round" stroke="#fff" stroke-width="2" fill="none">
+            <path id="path3745-6-56-5" d="m282 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+            <path id="path3745-6-56-5-7" d="m305 979 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+            <path id="path3745-6-56-5-1" d="m259 979 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+            <path id="path3745-6-56-5-1-3" d="m236 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+            <path id="path3745-6-56-5-1-3-3" d="m213 979 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+            <path id="path3745-6-56-5-1-3-3-3" d="m190 1.02e3 23 13.3v26.6l-23 13.3-23-13.3v-26.6z"/>
+        </g>
+    </g>
+    <g id="Edit">
+        <text id="Name" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" line-height="125%" y="80.252678" x="138.02228" font-family="&apos;Noto Sans CJK JP&apos;" fill="#000000"><tspan id="tspan4850" font-size="35px" font-family="&apos;Noto Sans CJK JP&apos;" y="80.252678" x="138.02228" font-weight="300">{{Name}}</tspan></text>
+        <text id="Role" opacity=".99" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end"
+              xml:space="preserve" font-size="40px" line-height="125%" y="103.57632" x="265.90622"
+              font-family="sans-serif" fill="#000000">
+            <tspan id="tspan4858" style="text-anchor:end;text-align:end" font-family="&apos;Noto Sans CJK JP&apos;"
+                   font-size="15px" y="103.57632" x="265.90622" font-weight="100">{{Role}}
+            </tspan>
+        </text>
+        <image id="Pic" xlink:href="" ng-attr-xlink:href="{{info}}" height="106" width="106" y="17.7" x="17.7"
+               preserveAspectRatio="none"/>
+    </g>
 </svg>
