@@ -53,5 +53,15 @@
         </div>
     </div>
 </main>
+
+<md-button id="archcard-png" onclick="download();">Download</md-button>
+<style> #archcard-png{float:right;margin-right:30px}</style>
+<script type="text/javascript" src="node_modules/save-svg-as-png/saveSvgAsPng.js"></script> 
+<script>
+function download(){
+	saveSvgAsPng(document.getElementById("card"), "archcard.png");
+}
+</script>
+
 </body>
 </html>
