@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html ng-app="CardGen">
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Arch-card Generator</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="node_modules/save-svg-as-png/saveSvgAsPng.js"></script>
 </head>
 
 <body ng-app="CardGen">
@@ -16,14 +17,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-messages.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
 <script src="js/CardGen.js"></script>
-<header>
+<header ng-cloak>
     <md-toolbar ng-if="true">
         <div class="md-toolbar-tools">
             <h3>Card Generator</h3>
         </div>
     </md-toolbar>
 </header>
-<main ng-controller="PicInfo as pic">
+<main ng-controller="PicInfo as pic" ng-cloak>
     <div class="md-padding" layout-xs="column" layout="row">
         <div flex-xs flex-gt-xs="50" layout="column">
             <md-card>
@@ -40,7 +41,16 @@
                            onchange="angular.element(this).scope().handleFiles(this.files)"/>
                     <md-button id="fileSelect" class="md-fab" ng-click="Listener($event)" ng-disabled="false"
                                aria-label="Pic">
-                        <md-icon><i class="material-icons">account_box</i></md-icon>
+                        <md-icon class="material-icons">account_box</md-icon>
+                    </md-button>
+                    <h3 class="md-headline">download</h3>
+                    <md-button id="archcard-png" class="md-raised md-primary" ng-click="pic.DownloadPng($event)">
+                        <md-icon class="material-icons">file_download</md-icon>
+                        png
+                    </md-button>
+                    <md-button id="archcard-svg" class="md-raised md-primary" ng-click="pic.DownloadSvg($event)">
+                        <md-icon class="material-icons">file_download</md-icon>
+                        svg
                     </md-button>
                 </div>
             </md-card>
@@ -53,15 +63,5 @@
         </div>
     </div>
 </main>
-
-<md-button id="archcard-png" onclick="download();">Download</md-button>
-<style> #archcard-png{float:right;margin-right:30px}</style>
-<script type="text/javascript" src="node_modules/save-svg-as-png/saveSvgAsPng.js"></script> 
-<script>
-function download(){
-	saveSvgAsPng(document.getElementById("card"), "archcard.png");
-}
-</script>
-
 </body>
 </html>

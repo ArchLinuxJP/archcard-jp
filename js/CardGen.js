@@ -1,5 +1,6 @@
 var Gen = angular.module("CardGen", ["ngMaterial"])
     .controller("PicInfo", ["$scope", "$sce", function ($scope, $sce) {
+        var pic = this;
         $scope.info = "img/sample.png";
 
         var fileSelect = document.getElementById("fileSelect"),
@@ -26,5 +27,14 @@ var Gen = angular.module("CardGen", ["ngMaterial"])
                 };
                 reader.readAsDataURL(file);
             }
+        }
+
+        pic.DownloadPng = function (e) {
+            saveSvgAsPng(document.getElementById("card"), "archcard.png");
+            e.preventDefault();
+        }
+        pic.DownloadSvg = function (e) {
+            saveSvg(document.getElementById("card"), "archcard.svg");
+            e.preventDefault();
         }
     }]);
