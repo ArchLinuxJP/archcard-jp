@@ -16,3 +16,8 @@ AngularJS(Ver.1台)を用いています。
 
 UIにはAngularMaterialを利用。
 機能的には十分なので、こちらも移行の計画はなし。
+
+## Download
+
+[Eric Shull](https://github.com/exupero) : https://github.com/exupero/saveSvgAsPng
+
