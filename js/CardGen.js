@@ -34,7 +34,7 @@ var Gen = angular.module("CardGen", ["ngMaterial"])
             e.preventDefault();
         }
         pic.DownloadSvg = function (e) {
-            saveSvg(document.getElementById("card"), "archcard.svg");
+            saveSvg(document.getElementById("card-fixed"), "archcard.svg");
             e.preventDefault();
         }
     }]);
