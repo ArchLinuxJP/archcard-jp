@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script type="text/javascript" src="node_modules/save-svg-as-png/saveSvgAsPng.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+    <script src="js/CardGen.js"></script>
 </head>
 
 <body ng-app="CardGen">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-aria.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-messages.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
-<script src="js/CardGen.js"></script>
-<header ng-cloak>
+<header>
     <md-toolbar ng-if="true">
         <div class="md-toolbar-tools">
             <h3>Card Generator</h3>
         </div>
     </md-toolbar>
 </header>
-<main ng-controller="PicInfo as pic" ng-cloak>
+<main ng-controller="PicInfo as pic">
     <div class="md-padding" layout-xs="column" layout="row">
         <div flex-xs flex-gt-xs="50" layout="column">
             <md-card>
@@ -67,7 +67,7 @@
 </main>
 
 <div ng-show="false">
-<ng-include src="'template/fixed/template.svg'"></ng-include>
+    <ng-include src="'template/fixed/template.svg'"></ng-include>
 </div>
 
 </body>
