@@ -1,6 +1,4 @@
-__pycache__/
 output/*
 pics/*
 
 !pics/sample.png
-!output/sample.svg
