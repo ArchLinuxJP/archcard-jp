@@ -29,7 +29,7 @@ baseグループに含まれるため、基本的には気にする必要はあ�
 
 名前と役職、プロフィール画像が必要です。
 
-> 'bash ./CardGen.bash "Your Name" "Your Role" "Picture file"'
+> bash ./CardGen.bash "Your Name" "Your Role" "Picture file"
 
 といった形で使います。
 
